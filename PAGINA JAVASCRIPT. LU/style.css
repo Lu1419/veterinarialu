@@ -1,0 +1,249 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+    background-image: url(fondo1.jpg);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 4rem;
+
+}
+
+.logo{
+
+    display: flex;
+    width: 17rem;
+    height: 12rem;
+
+
+}
+
+@font-face {
+    font-family: 'Holyfat';
+    src: url(Holyfat.ttf);
+}
+
+.encabezado{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(136, 0, 0, 0);
+    height: 15rem;
+}
+
+.info{
+
+    display: flex;
+    gap: 0.1rem;
+    font-size: 2rem;
+    color: limegreen;
+    font-family: 'Holyfat';
+}
+
+.palabras:hover{
+
+    
+    background-color: limegreen;
+    color: white;
+}
+
+.palabras{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0.3rem;
+    width: 6rem;
+    height: 2.7rem;
+}
+
+.animales{
+
+    display: flex;    
+    align-items: flex-start;
+
+}
+
+.segunda{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: rgba(222, 184, 135, 0);
+    height: 35rem;
+}
+
+.titulo{
+
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    color: limegreen;
+    font-family: sans-serif;
+   
+}
+
+.titulo2{
+
+    display: flex;
+    font-size: 2.2rem;
+    color: limegreen;
+    text-decoration: none;
+    font-family: fantasy;
+
+}
+
+.flex-container{
+
+    color:skyblue;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.boton-inscribete{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 50%;
+    height: 4rem;
+    width: 19rem;
+    color: white;
+    font-family: 'Holyfat';
+    
+}
+.boton:hover{
+    filter: brightness(1.2);
+    box-shadow: 0.2rem 0.2rem #7d7c7c;
+}
+
+.tercera{
+
+    display: flex;
+    background-color: rgba(0, 255, 255, 0);
+    height: 18rem;
+    justify-content: space-around;
+
+}
+
+.Objetivo{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Holyfat';
+    font-size: 2rem;
+}
+
+.o1{
+
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+.temas{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    color: limegreen;
+    font-family: 'Holyfat';
+}
+
+.t1{
+
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: white;
+    background-color: limegreen;
+}
+
+.cuarta{
+
+    background-color: rgba(255, 228, 196, 0);
+    height: 25rem;
+
+}
+
+.titulo3{
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Holyfat';
+    font-size: 2rem;
+    color: limegreen;
+    
+}
+
+.img{
+
+    display: flex;
+    justify-content: space-evenly;
+    height: 14rem;
+    
+}
+
+.quinta{
+
+    background-color: rgba(137, 43, 226, 0);
+    display: flex;
+    justify-content: space-around;
+    height: 23rem;
+
+}
+
+.titulo4{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: darkblue;
+}
+
+.titulo5{
+
+    display: flex;
+    font-family: fantasy;
+    font-size: 2.2rem;
+
+}
+.e1{
+
+    display: flex;
+    flex-direction: column;
+    color: darkblue;
+    font-size: 1.5rem;
+}
+
+.circulo{
+
+    display: flex;
+    height: 20rem;
+    
+}
+
+
+
+
+
+
+
